@@ -62,13 +62,13 @@ namespace Calculator
                 resultLabel.Content = "0";
             }
 
-            if (sender == multiplyButton)
+            if (sender == MultiplyButton)
                 selectedOperator = SelectedOperator.Multiplication;
-            if (sender == divideButton)
+            if (sender == DivideButton)
                 selectedOperator = SelectedOperator.Division;
-            if (sender == addButton)
+            if (sender == AddButton)
                 selectedOperator = SelectedOperator.Addition;
-            if (sender == subtractButton)
+            if (sender == SubtractButton)
                 selectedOperator = SelectedOperator.Subtraction;
         }
 
